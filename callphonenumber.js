@@ -1,6 +1,7 @@
 var callphonenumber = '400-1234-5678';
 (function(window, $, undefined) {
     $.fn.callphonenumber = function(option) {
+        return;
         var options = $.extend({}, option);
         if (options.phone) {
             callphonenumber = options.phone;
